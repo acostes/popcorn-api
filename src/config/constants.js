@@ -223,16 +223,34 @@ export const collections = ["anime", "movie", "show"];
 export const cronTime = "0 0 */6 * * *";
 
 /**
- * The host of the server of the database. Default is `["localhost"]`.
- * @type {Array}
- */
-export const dbHosts = ["localhost"];
-
-/**
- * The name of the database. Default is `popcorn`.
+ * The host of the server of the database.
  * @type {String}
  */
-export const dbName = "popcorn";
+export const dbHost = process.env.DBHOST;
+
+/**
+ * The port of the database.
+ * @type {String}
+ */
+export const dbPort = process.env.DBPORT;
+
+/**
+ * The name of the database.
+ * @type {String}
+ */
+export const dbName = process.env.DBNAME;
+
+/**
+ * The user of the database.
+ * @type {String}
+ */
+export const dbUser = process.env.DBUSER;
+
+/**
+ * The password of the database.
+ * @type {String}
+ */
+export const dbPassword = process.env.DBPASSWORD;
 
 /**
  * The providers for scraping ExtraTorrent for anime.
