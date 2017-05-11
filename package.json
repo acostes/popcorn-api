@@ -53,6 +53,7 @@
   "scripts": {
     "test": "./node_modules/.bin/babel-node ./node_modules/.bin/dredd",
     "prepublish": "./node_modules/.bin/gulp build",
+    "postinstall": "./node_modules/.bin/gulp build",
     "start": "node ./build/popcorn-api.js --run",
     "start-dev": "./node_modules/.bin/babel-node ./src/popcorn-api.js --run",
     "server": "node ./build/popcorn-api.js --server",
