@@ -31,7 +31,8 @@
     "torrent-tracker-health": "^1.0.0",
     "trakt.tv": "^2.2.0",
     "winston": "^2.3.0",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
@@ -46,8 +47,7 @@
     "esdoc": "^0.4.8",
     "esdoc-es7-plugin": "0.0.3",
     "eslint": "^3.12.2",
-    "forever": "^0.15.3",
-    "gulp-babel": "^6.1.2"
+    "forever": "^0.15.3"
   },
   "license": "MIT",
   "scripts": {
