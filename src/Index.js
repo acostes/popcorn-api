@@ -126,7 +126,7 @@ export default class Index {
         scope.on("error", err => Index._util.onError(err));
       }
     } else {
-      Index._server.listen(port);
+      Index._server.listen(process.env.PORT || port);
     }
   }
 
